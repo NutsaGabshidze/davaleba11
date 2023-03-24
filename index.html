@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/a924955000.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document11</title>
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER START -->
+    <header>
+        <img class="logo" src="img/Rectangle 19.svg" alt="logo">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Product</li>
+                <li style="color: red;">contact</li>
+            </ul>
+        </nav>
+        <i class="fa-solid fa-cart-shopping"></i>
+    </header>
+<!-- HEADER END -->
+
+<!-- აქ გვიან გავიაზრე რომ ყველაფერი form ტეგში უნდა მომეთავსებინა რომ submit-ს და  reset-ს ემუშავათ. თუმცა ახლა გადაწყობას ვერ ვასწრებ და ლექციამდე შესწორებულ კოდსაც გადმოგიგზავნით -->
+
+<!-- ასევე მაინტერესებს icon-ებს width da height რატომ ვერ ვუცვლი. ზომაში ვერაფრით გავზარდე. -->
+
+<!-- MAIN START -->
+<main>
+    <h2>Contact Us</h2>
+    <!-- forms -->
+    <div class="forms1">
+    <form >
+        <label for="firstname">FIRST NAME</label>
+        <input type="text" id="firstname" name="firstname" placeholder="First Name">
+    </form>
+<form>
+    <label for="Lastname">LAST NAME</label>
+    <input type="text" id="Lastname" name="Lastname" placeholder="Last Name">
+</form>
+
+</div>
+<div class="forms2">
+<form>
+    <label for="age ">AGE</label>
+    <input type="number" id="age" name="age" placeholder="Age">
+</form>
+<form>
+    <label for="email">EMAIL</label>
+    <input type="email" id="email" name="email" placeholder="Email Address">
+</form>
+</div>
+
+<!-- schedule -->
+<p>The schedule of work you are interested in</p>
+<div class="schedule">
+<input type="radio" id="fulltime" name="schedule" value="Full-Time">
+<label for="fulltime">Full-Time</label>
+
+<input type="radio" id="parttime" name="schedule" value="Part-Time">
+<label for="parttime">Part-Time</label>
+
+<input type="radio" id="remote" name="schedule" value="Remote">
+<label for="remote">Remote</label>
+</div>
+
+<!-- languages -->
+
+<p>Select the programming languages, you know</p>
+<div class="languages">
+<input type="checkbox" id="angular" name="ang1" value="Angular">
+<label for="angular">Angular</label>
+
+<input type="checkbox" id="python" name="python1" value="Python">
+<label for="python">Python</label>
+
+<input type="checkbox" id="js" name="js1" value="Javascript">
+<label for="js">Javascript</label>
+</div>
+
+<!-- choose file  -->
+<p>Attach any supporting documents (resume, CV, cover letter, etc.)</p>
+<button >Choose file</button>
+<p class="button_text">No file chosen</p>
+
+<!-- submit -->
+<div class="submit_reset">
+<input type="submit" id="submit" name="sm" value="SEND MESSAGE">
+
+<input type="reset" id="reset" name="rs" value="RESET">
+
+</div>
+
+</main>
+
+<!-- MAIN END -->
+
+<footer>
+    <div class="icons">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+    </div>
+</footer>
+</div>
+</body>
+</html>
